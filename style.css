@@ -77,6 +77,15 @@ body{
       
         
     }
+
+    .textF{
+      margin:5px;
+    }
+
+    .edit{
+        
+        color:yellow;
+    }
     
     @media all and (min-width: 600px) and (max-width: 892px){
       header img{ width: 200px;; height:200px; right:20px;
