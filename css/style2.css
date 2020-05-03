@@ -1,0 +1,183 @@
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#FEDBB7;
+    }
+
+    .header-links{
+        padding: 5px;
+        
+    }
+
+     .link-nav{
+     
+      display: inline-block;
+      margin: 5px;
+      padding: 8px;
+      border-radius: 4px;
+      text-decoration:none;
+      border: 1px solid white;
+      color: white;
+    }
+
+    .link-nav:hover{
+      background-color:white;
+      color:#D64933;
+    } 
+
+
+    
+    
+    header{
+      border: 5px solid#58A4B0;
+      background-color: #D64933;
+      color: white;
+      padding: 10px;
+      text-align:center;
+      padding: 10px;
+      border-radius:10px;
+     
+      right: 0;
+      top: 0;
+      left: 0;
+      margin:20px;
+      
+      
+      
+    }
+
+ .title h2{
+     color:white;
+     margin-bottom:10px;
+ }   
+   
+    
+ .grid-pic{
+    border-radius:10px;
+    border: 6px solid #D64933;
+    width: 90%;
+    height:200px;
+    
+
+ }
+
+ .grid-pic2{
+     border-radius: 325px;
+     width:50%;
+     height:300px;
+     margin-bottom:20px;
+     border: 6px solid white;
+     
+
+  
+    
+ }  
+    
+
+    
+    main{
+    display:grid;
+    text-align: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin:20px;
+
+    
+    }
+
+    .col{
+        border-radius: 10px;
+        margin: 8px;
+        background-color:#58A4B0;
+        border: 5px solid #D64933;
+
+    }
+    
+    
+    .link{
+      color:white;
+    }
+    
+    .website-div{
+        
+        margin: 15px;
+        
+    }
+
+    .website-a{
+        display:inline-block;
+        color:white;
+        padding:5px;
+        border: 1px solid white;
+        text-decoration:none;
+        border-radius: 10px;
+        margin: 5px;
+        
+    }
+
+    .website-a:hover{
+        background-color:white;
+        background-color: #D64933;
+       
+    }
+
+    .info p{
+        background:  #D64933;
+        border-radius:10px;
+        color:white;
+        margin:15px;
+        text-align:center;
+        height:33%;
+        padding:4px;
+    
+    }
+    
+    
+    footer{
+      background-color: #D64933;
+      border: 5px solid#58A4B0;
+      color: white;
+      padding: 10px;
+      text-align:center;
+      border-radius:10px;
+    
+      margin:20px;
+      
+      
+        
+    }
+
+    .textF{
+      margin:5px;
+    }
+
+    .edit{
+        
+        color:yellow;
+    }
+
+    @media all and (min-width: 300px) and (max-width: 600px){
+        main{grid-template-columns: 1fr; }
+        .grid-pic2{border-radius: 0; width: 75%;} 
+
+    
+    }
+    @media all and (min-width: 601px) and (max-width: 900px){
+        main{grid-template-columns: 1fr 1fr;}
+        .grid-pic2{border-radius: 0; width: 75%;}     
+        .website-a{display:box;}
+        
+                                          
+        
+        
+      }
+
+      @media all and (min-width: 901px) and (max-width: 1600px) {
+        main{grid-template-columns: 1fr 1fr 1fr; }
+        .grid-pic2{border-radius: 0; width: 75%;}   
+       
+        
+      }  
+      
+  
