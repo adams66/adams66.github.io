@@ -5,6 +5,10 @@ body{
     background-color:#FEDBB7;
     }
 
+    p{
+      line-height: 1.5;
+    }
+
     .header-links{
         padding: 5px;
         
