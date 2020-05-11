@@ -45,7 +45,7 @@ body{
 }
 
 #img1{
-    background-image: url("sky.jpg");
+    background-image: url("/Assets/sky.jpg");
     text-align: center;
     
 }
@@ -59,7 +59,7 @@ body{
 }
 
 #img3{
-    background-image: url("sunset.png");
+    background-image: url("/Assets/sunset.png");
     text-align: center;
 }
 
