@@ -11,10 +11,11 @@ function myFunction(){
     var e = new Date();
     var w = e.getDay();
 
-    if(w == 3){
-    var myElement = document.querySelector("#banner");
-    myElement.style.height = "200px";
-    myElement.style.margin = "25px";
+    if(w == 2){
+      var element = document.getElementById("hope");
+      element.classList.add("display");
+   
+
      
    
     }
