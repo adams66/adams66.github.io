@@ -234,6 +234,7 @@ body{
     justify-content: space-around;
     align-items: center;
     background-image: url("/wdd.jpeg");
+    background-color: skyblue;
     background-position: contain;
     background-repeat: no-repeat;
     background-position: center center;
