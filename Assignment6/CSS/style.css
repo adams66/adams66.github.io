@@ -258,6 +258,18 @@ body{
     text-align: center;
 }
 
+#child3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#child3 img{
+    display: none;
+    width: 100px;
+    max-height: 50%;
+}
+
 .contact{
     width: 100%;
     text-align: center;
@@ -427,6 +439,10 @@ body{
 
     .mobile-First{
         display: none;
+    }
+
+    #child3 img{
+        display: inline-block;
     }
 }
 
