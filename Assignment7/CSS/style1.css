@@ -243,43 +243,43 @@ body{
     font-size: 20px;
     margin: 5px;
     text-align: center;
-  
+    display: none;
     
 }
 
 #child1{
-    background-image: url('/Assets/pic1.jpg');
+    background-image: url("/Assets/pic1.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #child2{
-    background-image: url('/Assets/pic2.jpg');
+    background-image: url("/Assets/pic2.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #child3{
-    background-image: url('/Assets/pic3.jpg');
+    background-image: url("/Assets/pic3.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #child4{
-    background-image: url('/Assets/pic4.jpg');
+    background-image: url("/Assets/pic4.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #child5{
-    background-image: url('/Assets/pic5.jpg');
+    background-image: url("/Assets/pic5.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #child6{
-    background-image: url('/Assets/pic6.jpg');
+    background-image: url("/Assets/pic6.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -413,6 +413,12 @@ body{
     #outside{
         display: none;
     }
+
+    .text-b{
+        display: block;
+    }
+
+   
 }
 
 @media only screen and (min-width: 800px){
