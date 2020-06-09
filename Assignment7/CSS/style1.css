@@ -248,7 +248,7 @@ body{
 }
 
 #child1{
-    background-image: url('Assignment7/Assets/pic1.jpg');
+    background-image: url('/Assets/pic1.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
