@@ -284,6 +284,24 @@ body{
     background-size: cover;
 }
 
+#child7{
+    background-image: url("Assets/pic6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#child8{
+    background-image: url("Assets/pic6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#child9{
+    background-image: url("Assets/pic6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 
 
 
@@ -447,7 +465,7 @@ body{
 
     .grid-container{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .child{
