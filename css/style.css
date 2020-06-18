@@ -13,8 +13,8 @@ body{
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 25px;
-      padding: 30px;
+      padding: 25px;
+      padding-top: env(safe-area-inset-top);
       border-radius: 8px;
       background-color: #2b3566;
       color: white;
@@ -172,7 +172,11 @@ body{
           
     
         }
-      
+        
+        header{
+          margin: 25px;
+          padding: 20px
+        }
       
     }
 
