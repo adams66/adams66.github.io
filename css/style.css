@@ -131,22 +131,23 @@ body{
     
     
     footer{
-   
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
       background-color: #2b3566;
       color: white;
-      padding: 20px;
+      padding-bottom: 20px;
       text-align:center;
       border-radius:10px;
-
+      padding-bottom: env(safe-area-inset-bottom);
       margin:20px;
       
       
         
     }
 
-    .textF{
-      margin:5px;
-    }
+    
 
   
     
@@ -177,6 +178,7 @@ body{
           margin: 25px;
           padding: 20px
         }
+
       
     }
 
