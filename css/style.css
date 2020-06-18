@@ -171,6 +171,7 @@ body{
           -webkit-transform: scale(1.02);
           -ms-transform: scale(1.02);
           transform: scale(1.02);
+    
           
     
         }
@@ -188,7 +189,7 @@ body{
     }
 
         
-    @media all and (min-width: 600px){
+    @media all and (min-width: 800px){
  
     .container{
       grid-template-columns: 1fr 1fr 1fr;
@@ -196,3 +197,11 @@ body{
   
   
 }
+
+@media all and (min-width: 1000px){
+ 
+    body{
+      height: 100vh;
+    }
+}
+
