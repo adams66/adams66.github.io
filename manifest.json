@@ -52,7 +52,7 @@
     
     
     {
-        "src": "/Assets/icon/icon-512x512.png",
+        "src": "/Assets/icon/icon-512.png",
         "type": "image/png",
         "sizes": "512x512"
     }
