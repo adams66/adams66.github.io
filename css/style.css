@@ -13,7 +13,7 @@ body{
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 20px;
+      height: 100px;
       padding-top: env(safe-area-inset-top);
       border-radius: 8px;
       background-color: #2b3566;
@@ -24,6 +24,8 @@ body{
     }
 
 
+
+
     .me img{
       display: none;
       border-radius: 30px;
@@ -31,13 +33,15 @@ body{
       height: 135px;
       position: absolute;
       right: 40px;
-      top: 35px;;
+      top: 50px;;
     }
 
  
 
     .container{
       display: grid;
+      width: auto;
+      height: 100%;
       grid-template-columns: 1fr;
       
     }
@@ -55,7 +59,7 @@ body{
       border-radius: 5px;
       margin: 10px;
       width: auto;
-      height: 200px;
+      min-height: 140px;
       
       transition: 0.3s ease-in-out
     }
@@ -193,15 +197,17 @@ body{
  
     .container{
       grid-template-columns: 1fr 1fr 1fr;
+      
     }
-  
+    
+    body{
+      height: auto;
+    }
+ 
   
 }
 
 @media all and (min-width: 1000px){
- 
-    body{
-      height: 100vh;
-    }
+
 }
 
