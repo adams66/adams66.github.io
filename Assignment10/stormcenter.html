@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="/Assets/newP.png" sizes="16x16">
+    <title>Storm-Center</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Daltons Assigments for WDD 230 BYUI" />
+    <meta name="keywords" content="links to other html pages" />
+    <meta name="author" content="Dalton Adams" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="CSS2/style.css" />
+    <style>
+        .display {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            margin-top: 10px;
+            margin-left: 25px;
+            margin-right: 25px;
+            width: auto;
+            height: 150px;
+            background-color: skyblue;
+            border-radius: 8px;
+            border: 3px solid black;
+        }
+    </style>
+
+
+</head>
+
+<body onload="myFunction()">
+    <div id="hope">
+        <h1>Come to the Pancake feed on Saturday! Bring the entire Crew! 9:00am</h1>
+    </div>
+    <header>
+
+
+
+        <div class="header">
+
+
+            <div class="pictureL"><img src="Pictures/newP.png" alt="logo"></div>
+
+            <div id="box2">
+
+                <div class="eyes">Eyes in the Sky</div>
+
+
+            </div>
+
+            <div id="box3">
+
+                <div class="quote">"We Sleep in the Clouds"</div>
+
+
+            </div>
+
+
+
+
+        </div>
+        <div id="beta">
+            <div class="nav">
+
+                <div class="nav-link" id="usual">
+                    <a href="#">Preston</a>
+
+                </div>
+                <div class="nav-link" id="usual">
+                    <a href="#">Soda Springs</a>
+
+                </div>
+                <div class="nav-link" id="usual">
+                    <a href="#">Fish Haven</a>
+
+                </div>
+                <div class="nav-link" id="current">
+
+                    <a href="stormcenter.html">Storm Center</a>
+                </div>
+
+                <div class="nav-link" id="usual">
+
+                    <a href="#">Gallery</a>
+                </div>
+
+                <div class="show">
+                    <div id="menu" onclick="hamburger()">
+                        <div class="bar" id="bar1"></div>
+                        <div class="bar" id="bar2"></div>
+                        <div class="bar" id="bar3"></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+    </header>
+
+
+    <main>
+        
+        <div class="form-container">
+            <div class="actual-form">
+                <form class="engine" action="#">
+                    <h1>Storm Center</h1>
+                    <label for="text">FirstName</label>
+
+                    <input type="text" id="text" placeholder="First Name">
+                    <br>
+                    <label for="tex2t">FirstName</label>
+
+                    <input type="text" id="text2" placeholder="Last Name">
+                    <br>
+                    <label for="email-field" >Email</label>
+                    
+                    <input type="text" id="email-field">
+                    <br>
+                    <label for="phone">Phone</label>
+                
+                    <input type="text" id="phone">
+                    <br>
+            
+                    <label for="value3">Zip Code</label>
+                    
+                    <input type="text" id="value3">
+                    <br>
+                    <label for="value4">Date</label>
+    
+                    <input type="date" id="value4">
+                    <br>
+
+                    <label for="region">Region</label>
+                    <select id="options" name="options">
+                        <option value="preston">Preston</option>
+                        <option value="New-Haven">New-Haven</option>
+                        <option value="soda-springs">Soda Springs</option>
+                    </select>
+                <label for="points">Rate the Storm(1-10)</label>
+                <input type="range" id="value2" name="points" min="0" max="10">
+                    
+                    <div id="wrapper">
+                        <label for="yes_no_radio">Are you considered safe?</label>
+                        <p>
+                            <input type="radio" name="yes_no" checked>Yes</input>
+                        </p>
+                        <p>
+                            <input type="radio" name="yes_no">No</input>
+                        </p>
+                    </div>
+                    <label for="more">More Details</label>
+                    <input type="text" id="more">
+                   
+
+                    <button type="submit" form="form1" value="submit">Submit</button>
+
+                </form>
+
+
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="bottom">
+            <span id="time"></span>
+        </div>
+
+    </footer>
+
+
+
+    <script src="Javascript/script.js"></script>
+</body>
+
+</html>
