@@ -61,17 +61,20 @@ body{
     height: 300px;
     width: 80%;    
     margin-bottom: 10px;
-    
-
-   
 
 }
+
+
 
 
 
 .card{
     text-align: center;
     font-size: 40%;
+}
+
+.card p{
+    padding: 10px;
 }
 
 
