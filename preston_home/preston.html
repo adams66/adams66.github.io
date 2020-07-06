@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" href="/Assets/newP.png" sizes="16x16">
+  <title>Preston-Homepage</title>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Daltons Assigments for WDD 230 BYUI" />
+  <meta name="keywords" content="links to other html pages" />
+  <meta name="author" content="Dalton Adams" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="CSS/style.css" />
+  <style>
+    .display {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: white;
+      margin-top: 10px;
+      margin-left: 25px;
+      margin-right: 25px;
+      width: auto;
+      height: 150px;
+      background-color: skyblue;
+      border-radius: 8px;
+    }
+  </style>
+
+
+</head>
+
+<body onLoad="myFunction()">
+  <div id="hope">
+    Come to the Pancake feed on Saturday! Bring the entire Crew! 9:00am
+  </div>
+  <header>
+
+
+
+    <div class="header">
+
+
+      <div class="pictureL"><img src="Assets/newP.png" alt="logo"></div>
+
+      <div id="box2">
+
+        <div class="eyes">Eyes in the Sky</div>
+
+
+      </div>
+
+      <div id="box3">
+
+        <div class="quote">"We Sleep in the Clouds"</div>
+
+
+      </div>
+
+
+
+
+    </div>
+    <div id="beta">
+      <div class="nav">
+
+        <div class="nav-link" id="current">
+          <a href="preston.html">Preston</a>
+
+        </div>
+        <div class="nav-link" id="usual">
+          <a href="sodaSprings.html">Soda Springs</a>
+
+        </div>
+        <div class="nav-link" id="usual">
+          <a href="#">Fish Haven</a>
+
+        </div>
+        <div class="nav-link" id="usual">
+
+          <a href="#">Storm Center</a>
+        </div>
+
+        <div class="nav-link" id="usual">
+
+          <a href="#">Gallery</a>
+        </div>
+
+        <div class="show">
+          <div id="menu" onclick="hamburger()">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+  </header>
+
+
+
+  <div class="container">
+    <div class="item" id="item1">
+
+      <div class="title"> Preston Idaho</div>
+      <div class="info-container">
+        <div class="info">
+          <div class="title-summary">Weather Summary</div>
+          <div class="current">Currently:<div id=value1></div>
+          </div>
+          <div class="high">High:<div id=value2></div>
+          </div>
+          <div class="humid">Humidity:<div id=value3></div>
+          </div>
+          <div class="speed">Wind Speed:<div id=value4></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item" id="item2">
+      <div class="title"> 5 Day Forcast</div>
+      <div class="future">
+        <div class="day1">
+          <div class="week1" id="t1"></div>
+          <div class="icon" id="b0"></div>
+          <div class="temp" id="a0"></div>
+
+        </div>
+        <div class="day1">
+          <div class="week1" id="t2"></div>
+          <div class="icon" id="b1"></div>
+          <div class="temp" id="a1"></div>
+
+        </div>
+        <div class="day1">
+          <div class="week1" id="t3"></div>
+          <div class="icon" id="b2"></div>
+          <div class="temp" id=a2></div>
+
+        </div>
+        <div class="day1">
+          <div class="week1" id="t4"></div>
+          <div class="icon" id="b3"></div>
+          <div class="temp" id="a3"></div>
+
+        </div>
+        <div class="day1">
+          <div class="week1" id="t5"></div>
+          <div class="icon" id="b4"></div>
+          <div class="temp" id="a4"></div>
+
+        </div>
+      </div>
+
+
+    </div>
+    <div class="item" id="item3">
+      <div class="title">News</div>
+      <div class="newsA">
+      <div class="news">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</div>
+        <div class="pic"><img src="Assets/another.jpg" alt=""></div>
+      </div>
+    </div>
+    <div class="item" id="item4">
+      <div class="title">News</div>
+      <div class="newsA">
+       
+      <div class="news">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</div>
+        <div class="pic"><img src="Assets/another.jpg" alt=""></div>
+      </div>
+    </div>
+    <div class="item" id="item5">
+      <div class="title">Contact</div>
+    </div>
+
+  </div>
+
+
+
+  <footer>
+    <div class="bottom">
+      <div id="time"></div>
+    </div>
+
+  </footer>
+
+
+
+  <script type="text/Javascript" src="Javascript/script.js"></script>
+</body>
+
+</html>
