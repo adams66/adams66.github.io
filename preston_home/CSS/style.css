@@ -440,6 +440,10 @@ body{
 
 @media only screen and (min-width: 705px){
 
+    .item{
+        height: 300px;
+    }
+
 
     .newsA{
         flex-direction: row;
