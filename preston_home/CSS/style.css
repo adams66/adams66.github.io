@@ -190,7 +190,7 @@ body{
     
     display: flex;
     flex-direction: column;
-    background-image: url('/Assets/preston.png');
+    background-image: url('/CSS/Assets/preston.png');
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ body{
  flex-direction: column;
  width: auto;
  height: auto;
- background-image: url('/Assets/evening.jpg');
+ background-image: url('/CSS/Assets/evening.jpg');
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
