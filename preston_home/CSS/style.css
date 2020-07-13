@@ -162,7 +162,8 @@ body{
 }
 
 .item{
-
+    display: flex;
+    flex-direction: column;
     text-align: center;
     border: 3px solid black;
     border-radius: 8px;
@@ -203,8 +204,9 @@ body{
     justify-content: space-between;
     color: white;
     width: auto;
+    margin: 10px;
     padding: 5px;
-    height: 90%;
+    height: 100%;
     background-color: #30475e;
     opacity: 0.90 ;
     border-radius: 8px;
@@ -216,7 +218,7 @@ body{
  flex-direction: column;
  width: auto;
  height: auto;
- background-image: url('Assets/evening.jpg');
+ background-image: url('Assets/star2.jpg');
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
@@ -283,7 +285,7 @@ body{
     justify-content: center;
     align-items: center;
     
-    height: 90%;
+   
 }
 
 .day{
@@ -315,12 +317,23 @@ body{
 .newsA{
     display: flex;
     flex-direction: column;
+ 
+    height: 100%;
 }
 
-.pic img{
-    width: 80%;
+
+
+.pic1{
+    background-image: url('/CSS/Assets/background.jpg');
+    width: auto;
     height: 300px;
-    border-radius: 8px;
+}
+
+.pic2{
+    background-image: url('/CSS/Assets/background.jpg');
+    width: auto;
+    height: 300px;
+
 }
 
 
@@ -342,11 +355,7 @@ body{
     background-color: #30475e;
     border: 3px solid black;
     border-radius: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
-
+    margin: 20px;
 }
 
 #time{
@@ -450,11 +459,8 @@ body{
         
     }
 
-    .pic img{
-        
-        width: 100%;
-        height: 400px;
-    }
+ 
+
 
     .future{
         height: 100%;
