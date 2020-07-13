@@ -317,8 +317,7 @@ body{
 .newsA{
     display: flex;
     flex-direction: column;
- 
-    height: 100%;
+    font-size: 1rem;    
 }
 
 
@@ -333,6 +332,35 @@ body{
     background-image: url('/CSS/Assets/background.jpg');
     width: auto;
     height: 300px;
+
+}
+
+.contact{
+    display: flex;
+    
+    justify-content: center;
+
+
+}
+
+.contact1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#contactA{
+    display: none;
+}
+
+#contactC{
+    display: none;
+}
+
+.contact img{
+    width: 130px;
+    margin: 10px;
 
 }
 
@@ -450,14 +478,11 @@ body{
 @media only screen and (min-width: 705px){
 
     .item{
-        height: 300px;
+        height: auto;
     }
 
 
-    .newsA{
-        flex-direction: row;
-        
-    }
+    
 
  
 
@@ -497,6 +522,43 @@ body{
     #outside{
         display: none;
     }
+
+    .newsA{
+        flex-direction: row;
+       
+        align-items: center;
+        height: 310px;
+
+  
+    }
+
+    .news{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+
+        
+    }
+
+    .pic1{
+        width: 50%;
+        height: 100%;
+        border-radius: 2px;
+
+    }
+
+    .pic2{
+        width: 50%;
+        height: 100%;
+        border-radius: 2px;
+
+        
+    }
+
+
+
+
 }
 @media only screen and (min-width: 675px){
     .container{
@@ -506,6 +568,31 @@ body{
     #item5{
         grid-column: 1/3;
     }
+
+    #contactA, #contactC{
+        display: inline-block;
+    }
+
+    .contact{
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .container{
+        margin: 0 30px 0 30px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 1600px){
+    .container{
+        margin: 0 50px 0 50px;
+    }
+
 }
 
 
