@@ -169,7 +169,8 @@ body{
     border-radius: 8px;
     background-color: #faebd7;
     width: auto;
-    height: 100%;
+  
+ 
 
 }
 
@@ -322,14 +323,16 @@ body{
 .newsA{
     display: flex;
     flex-direction: column;
-
+  
   
 }
 
 .news{
     word-wrap: break-word;
     width: 100%;
-  
+
+    margin: 5px;
+
 }
 
 
@@ -340,7 +343,7 @@ body{
     background-size: cover;
     background-repeat:no-repeat;
     width: auto;
-    height: 300px;
+    height: 330px;
 
 }
 
@@ -349,7 +352,7 @@ body{
     background-size: cover;
     background-repeat:no-repeat;
     width: auto;
-    height: 300px;
+    height: 330px;
 
 }
 
