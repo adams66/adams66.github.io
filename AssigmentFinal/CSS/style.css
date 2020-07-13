@@ -213,6 +213,7 @@ body{
     opacity: 0.90 ;
     border-radius: 8px;
     border: 3px solid black;
+    
 }
 
 #item2{ 
@@ -375,10 +376,15 @@ body{
     display: none;
 }
 
+
 .contact img{
     width: 130px;
     margin: 10px;
 
+}
+
+.email{
+    display: none;
 }
 
 
@@ -592,6 +598,15 @@ body{
 
     .contact{
         justify-content: space-evenly;
+    }
+
+    .content{
+        display: none;
+
+    }
+
+    .email{
+        display: inline-block;
     }
 }
 
