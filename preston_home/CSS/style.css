@@ -191,7 +191,7 @@ body{
     
     display: flex;
     flex-direction: column;
-    background-image: url('Assets/preston.png');
+    background-image: url('/Assets/preston.png');
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ body{
  flex-direction: column;
  width: auto;
  height: auto;
- background-image: url('Assets/star2.jpg');
+ background-image: url('/Assets/star2.jpg');
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
@@ -323,13 +323,13 @@ body{
 
 
 .pic1{
-    background-image: url('Assets/background.jpg');
+    background-image: url('/Assets/background.jpg');
     width: auto;
     height: 300px;
 }
 
 .pic2{
-    background-image: url('Assets/background.jpg');
+    background-image: url('/Assets/background.jpg');
     width: auto;
     height: 300px;
 
