@@ -285,7 +285,7 @@ body{
     justify-content: center;
     align-items: center;
     
-   
+ 
 }
 
 .day{
@@ -298,6 +298,8 @@ body{
     margin: 3px;
     height: 85%;
     background-color: #30475e ;
+
+
    
 }
 
@@ -326,6 +328,7 @@ body{
     background-image: url('Assets/background.jpg');
     width: auto;
     height: 300px;
+
 }
 
 .pic2{
