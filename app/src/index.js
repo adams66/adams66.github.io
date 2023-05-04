@@ -19,6 +19,8 @@ import Stats from './pages/Stats/Stats';
 
 
 helper.themeInit();
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 var theme = localStorage.getItem("theme");
 if(theme !== "undecided"){
