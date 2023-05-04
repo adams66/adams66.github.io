@@ -38,6 +38,8 @@ if(theme !== "undecided"){
   {Key.draft.map((r) => {return <Route path={"/royal-wildcat/draft" + "/" + r.year }  element={<DraftSeason  />}/>})}
   {Key.nflTeams.map((r) => {return <Route path={"/royal-wildcat/nflTeams" + "/" + r.teamUrl }  element={<NflTeamsSingle />}/>})}
   <Route path="/royal-wildcat/*" element={<NotFound />}/> 
+
+  
   </Routes>
     </BrowserRouter>
     </React.StrictMode>
