@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "short_name": "Royal Wildcat",
   "name": "Royal Wildcat Fantasy",
+=======
+  "short_name": "React App",
+  "name": "Create React App Sample",
+>>>>>>> 62a80c9bd3bf8387df76f44feabcfca402aabcb3
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +23,15 @@
       "sizes": "512x512"
     }
   ],
+<<<<<<< HEAD
   "start_url": "/royal-wildcat",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#030303"
+=======
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+>>>>>>> 62a80c9bd3bf8387df76f44feabcfca402aabcb3
 }

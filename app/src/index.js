@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import ReactDOM from 'react-dom/client';
 import * as helper from './helpers/helpers';
 import React from 'react';
@@ -46,3 +47,18 @@ if(theme !== "undecided"){
   );
 }
 else{root.render(<Theme />);}
+=======
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+
+>>>>>>> 62a80c9bd3bf8387df76f44feabcfca402aabcb3
